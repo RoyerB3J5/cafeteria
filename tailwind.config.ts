@@ -11,7 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        marron: "#be9c79"
+        marron: "#be9c79",
+        tittle:"#262626",
+        parrafo:"#656565"
       },
       fontSize: {
         sm: "0.750rem",
