@@ -13,7 +13,8 @@ export default {
         foreground: "var(--foreground)",
         marron: "#be9c79",
         tittle:"#262626",
-        parrafo:"#656565"
+        parrafo:"#656565",
+        footer: "#121212"
       },
       fontSize: {
         sm: "0.750rem",

@@ -27,8 +27,8 @@ function Section2() {
     image:"image4.webp"
   }]
   return (
-    <section className="w-full flex flex-col justify-center items-center gap-7 py-20 px-10 md:px-20">
-      <h2 className="text-4xl text-tittle font-medium ">
+    <section className="w-full flex flex-col justify-center items-center gap-7 py-24 px-10 md:px-20">
+      <h2 className="text-4xl text-tittle font-medium text-center ">
         Lo Mejor de Nosotros
       </h2>
       <Image
