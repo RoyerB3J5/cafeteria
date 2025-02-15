@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Section3() {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 ">
+    <section id="horario" className="grid grid-cols-1 lg:grid-cols-2 ">
       <div
         className="bg-cover bg-center flex justify-center items-center h-full py-28"
         style={{ backgroundImage: "url('/section3/image2.webp')" }}

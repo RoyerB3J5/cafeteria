@@ -74,7 +74,7 @@ function Section4() {
     ],
   ];
   return (
-    <section
+    <section id="menu"
       className="w-screen flex flex-col justify-center items-center gap-4 py-28 bg-center bg-cover px-4 sm:px-8 md:px-12"
       style={{ backgroundImage: "url('/section4/fondo.webp')" }}
     >

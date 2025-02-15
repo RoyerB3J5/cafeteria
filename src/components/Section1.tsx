@@ -25,7 +25,7 @@ function Section1() {
     }, 500);
   };
   return (
-    <section
+    <section id="inicio"
       className={` h-screen w-full flex flex-col justify-center items-end text-white gap-8 px-12 md:px-16 lg:px-40 bg-center `}
       style={{ backgroundImage: `url(/carrusel/slide${indexImage}.webp)` }}
     >
