@@ -45,6 +45,12 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
+    if (isOpen && window.innerWidth < 1024) {
+      setIsOpen(false);
+    }
+  }, [activeSection]);
+
+  useEffect(() => {
     const handleScroll = () => {
       const inicioSection = document.getElementById("inicio");
       if (inicioSection) {
@@ -89,7 +95,7 @@ function Header() {
           <Image
             src="/logo-light.png"
             alt="Logo de cafeteria"
-            width={140}
+            width={120}
             height={20}
             className="responsive"
           />
