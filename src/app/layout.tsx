@@ -3,16 +3,17 @@ import { Marcellus } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const marcellus = Marcellus({
   subsets: ["latin"],
-  weight : ["400"],
-
-})
+  weight: ["400"],
+});
 
 export const metadata: Metadata = {
   title: "RB C0ffee",
-  description: "Disfruta de un bun café de especialidad, en un ambiente acogedor ",
+  description:
+    "Disfruta de un bun café de especialidad, en un ambiente acogedor ",
 };
 
 export default function RootLayout({
@@ -22,11 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className=" scroll-smooth">
-      <body
-        className={`${marcellus.className} antialiased overflow-x-hidden`}
-      >
+      <body className={`${marcellus.className} antialiased overflow-x-hidden`}>
         <Header />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
