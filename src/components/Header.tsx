@@ -48,7 +48,7 @@ function Header() {
     if (isOpen && window.innerWidth < 1024) {
       setIsOpen(false);
     }
-  }, [activeSection]);
+  }, [activeSection, isOpen]);
 
   useEffect(() => {
     const handleScroll = () => {
