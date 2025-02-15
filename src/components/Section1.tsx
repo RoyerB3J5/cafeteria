@@ -5,7 +5,7 @@ function Section1() {
   const [indexImage, setIndexImage] = useState(1);
   const [visible, setVisible] = useState(true);
   const indicators = [1, 2, 3];
-  useEffect(() => {
+  /*useEffect(() => {
     const interval = setInterval(() => {
       setVisible(false);
       setTimeout(() => {
@@ -15,7 +15,7 @@ function Section1() {
     }, 7000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, []);*/
 
   const handleIndicatorClick = (i: number) => {
     setVisible(false);
@@ -32,7 +32,7 @@ function Section1() {
       <div className={`flex flex-col justify-center items-center max-w-[700px] gap-5 md:gap-8 transition-all duration-500 ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}>
-        <div className="size-20 md:size-32 lg:size-36 relative">
+        <div className="size-20 md:size-28 lg:size-32 relative">
           <Image
             src="/logo2.png"
             alt="Logo secundario"
@@ -41,7 +41,7 @@ function Section1() {
           />
         </div>
 
-        <h1 className=" font-medium text-4xl md:text-6xl lg:text-7xl">RB COFFEE</h1>
+        <h1 className=" font-medium text-4xl md:text-5xl lg:text-6xl">RB COFFEE</h1>
         <Image src="/separador.png" width={220} alt="Separador" height={20} />
         <p className="text-center text-base lg:text-lg md:max-w-[600px] lg:max-w-[700px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quidem molestias suscipit ex facilis nesciunt iste blanditiis illum eaque, numquam temporibus corrupti. 
