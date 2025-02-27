@@ -5,7 +5,7 @@ function Section1() {
   const [indexImage, setIndexImage] = useState(1);
   const [visible, setVisible] = useState(true);
   const indicators = [1, 2, 3];
-  /*useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(() => {
       setVisible(false);
       setTimeout(() => {
@@ -15,7 +15,7 @@ function Section1() {
     }, 7000);
 
     return () => clearInterval(interval);
-  }, []);*/
+  }, []);
 
   const handleIndicatorClick = (i: number) => {
     setVisible(false);
