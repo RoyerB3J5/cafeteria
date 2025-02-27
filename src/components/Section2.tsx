@@ -36,6 +36,7 @@ function Section2() {
         alt="separador"
         width={190}
         height={40}
+        style={{ width: "auto", height: "auto" }}
       />
       <p className="text-center text-xl font-sans font-light text-tittle max-w-[820px]">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -43,7 +44,7 @@ function Section2() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10  md:max-w-full max-w-[820px] pt-8 px-0 lg:px-28 ">
         {data.map((item,index)=>(
           <div className="flex flex-col items-center justify-center gap-5" key={index}>
-            <Image src={`/section2/${item.image}`} alt={item.title} width={100} height={100} />
+            <Image src={`/section2/${item.image}`} alt={item.title} width={100} height={100} style={{ width: "auto", height: "auto" }}/>
             <h3 className="uppercase text-tittle text-xl text-center">
               {item.title}
             </h3>

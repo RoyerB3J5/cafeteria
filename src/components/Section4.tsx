@@ -86,6 +86,7 @@ function Section4() {
         alt="separador"
         width={190}
         height={40}
+        style={{ width: "auto", height: "auto" }}
       />
       <p className="text-center text-xl font-sans font-light text-tittle max-w-[820px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -101,6 +102,7 @@ function Section4() {
                     src={`/section4/${item.image}.webp`}
                     alt={item.title}
                     fill
+                    sizes="64px"
                     style={{ objectFit: "contain" }}
                   />
                 </div>

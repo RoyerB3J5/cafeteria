@@ -11,6 +11,7 @@ function Section3() {
           width={300}
           height={125}
           alt="Logo de seccion"
+          style={{ width: "auto", height: "auto" }}
         />
       </div>
       <div

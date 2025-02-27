@@ -37,12 +37,13 @@ function Section1() {
             src="/logo2.png"
             alt="Logo secundario"
             fill
-            style={{ objectFit: "contain" }}
+            sizes="(max-width: 768px) 80px, (max-width: 1024px) 112px, 128px"
+            style={{ objectFit: "contain"  }}
           />
         </div>
 
         <h1 className=" font-medium text-4xl md:text-5xl lg:text-6xl">RB COFFEE</h1>
-        <Image src="/separador.png" width={220} alt="Separador" height={20} />
+        <Image src="/separador.png" width={220} alt="Separador" height={20} style={{ width: "auto", height: "auto" }}/>
         <p className="text-center text-base lg:text-lg md:max-w-[600px] lg:max-w-[700px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quidem molestias suscipit ex facilis nesciunt iste blanditiis illum eaque, numquam temporibus corrupti. 
         </p>

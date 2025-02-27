@@ -98,6 +98,7 @@ function Header() {
             width={120}
             height={20}
             className="responsive"
+            style={{ width: "auto", height: "auto" }}
           />
         </div>
         <div onClick={() => setIsOpen(!isOpen)} className="flex lg:hidden">

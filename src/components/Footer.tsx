@@ -12,6 +12,7 @@ function Footer() {
         width={150}
         height={20}
         className="responsive"
+        style={{ width: "auto", height: "auto" }}
       />
       
       <SocialIcons />
