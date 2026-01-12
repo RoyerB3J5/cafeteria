@@ -16,7 +16,7 @@ function Section5() {
       className="flex flex-col justify-center items-center gap-10 mt-24"
     >
       <h2 className="text-4xl text-tittle font-medium text-center uppercase ">
-        Nuestra dulce galeria
+        Nuestra dulce galería
       </h2>
       <Image
         src="/title-separator.png"
@@ -26,8 +26,8 @@ function Section5() {
         style={{ width: "auto", height: "auto" }}
       />
       <p className="text-center text-xl font-sans font-light text-tittle max-w-[820px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore
+        Un espacio para antojarte: pasteles, postres y bebidas que preparamos
+        cada día con ingredientes frescos y mucho amor.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full mt-5">
         {images.map((img, index) => (

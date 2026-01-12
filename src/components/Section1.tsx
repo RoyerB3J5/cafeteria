@@ -25,27 +25,40 @@ function Section1() {
     }, 500);
   };
   return (
-    <section id="inicio"
+    <section
+      id="inicio"
       className={` h-screen w-full flex flex-col justify-center items-end text-white gap-8 px-12 md:px-16 lg:px-40 bg-center `}
       style={{ backgroundImage: `url(/carrusel/slide${indexImage}.webp)` }}
     >
-      <div className={`flex flex-col justify-center items-center max-w-[700px] gap-5 md:gap-8 transition-all duration-500 ${
+      <div
+        className={`flex flex-col justify-center items-center max-w-[700px] gap-5 md:gap-8 transition-all duration-500 ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-        }`}>
+        }`}
+      >
         <div className="size-20 md:size-28 lg:size-32 relative">
           <Image
             src="/logo2.png"
             alt="Logo secundario"
             fill
             sizes="(max-width: 768px) 80px, (max-width: 1024px) 112px, 128px"
-            style={{ objectFit: "contain"  }}
+            style={{ objectFit: "contain" }}
           />
         </div>
 
-        <h1 className=" font-medium text-4xl md:text-5xl lg:text-6xl">RB COFFEE</h1>
-        <Image src="/separador.png" width={220} alt="Separador" height={20} style={{ width: "auto", height: "auto" }}/>
+        <h1 className=" font-medium text-4xl md:text-5xl lg:text-6xl">
+          URBAN COFFEE
+        </h1>
+        <Image
+          src="/separador.png"
+          width={220}
+          alt="Separador"
+          height={20}
+          style={{ width: "auto", height: "auto" }}
+        />
         <p className="text-center text-base lg:text-lg md:max-w-[600px] lg:max-w-[700px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quidem molestias suscipit ex facilis nesciunt iste blanditiis illum eaque, numquam temporibus corrupti. 
+          Disfruta café artesanal de especialidad, tostado fresco cada día,
+          acompañado de postres caseros, aromas y un espacio cálido donde
+          conectar y relajarte.
         </p>
         <button className=" px-10 py-3 border-2 border-white text-lg hover:bg-marron hover:border-marron  transition-all">
           PEDIR

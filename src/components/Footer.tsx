@@ -4,7 +4,7 @@ import SocialIcons from "./SocialIcons";
 function Footer() {
   return (
     <footer className=" w-full py-16 px-20 flex flex-col md:flex-row gap-16 md:gap-0 justify-around items-center bg-footer">
-      <p className="text-white text-lg"> © 2025 RB COFFEE</p>
+      <p className="text-white text-lg"> © 2026 URBAN COFFEE</p>
 
       <Image
         src="/logo-light.png"
@@ -14,7 +14,7 @@ function Footer() {
         className="responsive"
         style={{ width: "auto", height: "auto" }}
       />
-      
+
       <SocialIcons />
     </footer>
   );

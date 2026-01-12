@@ -11,7 +11,7 @@ const marcellus = Marcellus({
 });
 
 export const metadata: Metadata = {
-  title: "RB C0ffee",
+  title: "URBAN COFFEE - Café de Especialidad",
   description:
     "Disfruta de un bun café de especialidad, en un ambiente acogedor ",
 };

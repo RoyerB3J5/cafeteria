@@ -13,31 +13,31 @@ function Section4() {
         title: "Mocha",
         image: "mocha",
         price: 5.0,
-        description: "Cafe con leche y chocolate",
+        description: "Café con leche, chocolate y un toque dulce.",
       },
       {
         title: "Latte",
         image: "latte",
         price: 2.0,
-        description: "Cafe con leche",
+        description: "Café espresso suave mezclado con leche espumosa.",
       },
       {
-        title: "Ice Coffee",
+        title: "Iced Coffee",
         image: "ice-coffe",
         price: 3.5,
-        description: "Cafe con leche y crema",
+        description: "Café frío con leche y crema, ideal para refrescarte.",
       },
       {
         title: "Espresso",
         image: "espresso",
         price: 1.5,
-        description: "Cafe solo",
+        description: "Café intenso y aromático servido solo.",
       },
       {
         title: "Americano",
         image: "americano",
         price: 2.5,
-        description: "Cafe y agua",
+        description: "Café espresso rebajado con agua caliente.",
       },
     ],
     [
@@ -45,31 +45,31 @@ function Section4() {
         title: "Mocha",
         image: "mocha",
         price: 5.0,
-        description: "Cafe con leche y chocolate",
+        description: "Café con leche, chocolate y un toque dulce.",
       },
       {
         title: "Latte",
         image: "latte",
         price: 2.0,
-        description: "Cafe con leche",
+        description: "Café espresso suave mezclado con leche espumosa.",
       },
       {
-        title: "Ice Coffee",
+        title: "Iced Coffee",
         image: "ice-coffe",
         price: 3.5,
-        description: "Cafe con leche y crema",
+        description: "Café frío con leche y crema, ideal para refrescarte.",
       },
       {
         title: "Espresso",
         image: "espresso",
         price: 1.5,
-        description: "Cafe solo",
+        description: "Café intenso y aromático servido solo.",
       },
       {
         title: "Americano",
         image: "americano",
         price: 2.5,
-        description: "Cafe y agua",
+        description: "Café espresso rebajado con agua caliente.",
       },
     ],
   ];
@@ -79,7 +79,7 @@ function Section4() {
       style={{ backgroundImage: "url('/section4/fondo.webp')" }}
     >
       <h2 className="text-4xl text-tittle font-medium text-center uppercase ">
-        Nuestro menu
+        Nuestro menú
       </h2>
       <Image
         src="/title-separator.png"
@@ -89,8 +89,7 @@ function Section4() {
         style={{ width: "auto", height: "auto" }}
       />
       <p className="text-center text-xl font-sans font-light text-tittle max-w-[820px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore
+        Disfruta nuestros cafés preparados con dedicación, pensados para cada gusto y momento del día.
       </p>
       <div className="w-full lg:w-[1300px] grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24 mt-16 px-12 ">
         {dataCoffee.map((coffe, index) => (

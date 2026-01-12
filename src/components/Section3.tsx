@@ -28,8 +28,8 @@ function Section3() {
             <p>Domigo // Cerrado</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-5 w-full">
-            <p>Direccion</p>
-            <p>Los Laureles, 2da Calle, 3ra Avenida</p>
+            <p>Dirección</p>
+            <p>Urb. San Felipe 345</p>
           </div>
         </div>
       </div>
